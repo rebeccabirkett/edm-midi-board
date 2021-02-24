@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="shortcut icon" href="#">
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+    <title>Drum Kit</title>  
+</head>
+
+<body>
+    <div id="header">Pick a beat.<br>Let's go.</div>
+        
+    <div class="drumBeats">
+        <div class="drum-pad" id="Q1" onclick="playSound('Q')">
+            <h3>Q</h3>
+            <p>KICK</p>
+            <audio id="Q" autostart = "false" src="./sounds/Kick_014_726.wav"></audio>
+        </div>
+
+        <div class="drum-pad" id="W1" onclick="playSound('W')">
+            <h3>W</h3>
+            <p>BOUNCYDRUMS</p>
+            <audio id="W" autostart = "false" src="./sounds/128_BouncyDrums_02_726.wav"></audio> 
+        </div>
+
+        <div class="drum-pad" id="E1" onclick="playSound('E')">
+            <h3>E</h3>
+            <p>ASTRODRUMS</p>
+            <audio id="E" autostart = "false" src="./sounds/160_AstroDrums_05_726.wav"></audio> 
+        </div>
+
+        <div class="drum-pad" id="R1" onclick="playSound('R')">
+            <h3>R</h3>
+            <p>VOCAL</p>
+            <audio id="R" autostart = "false" src="./sounds/Cm_Vocal_01_726.wav"></audio> 
+        </div>
+
+        <div class="drum-pad" id="T1" onclick="playSound('T')">
+            <h3>T</h3>
+            <p>DAISYARP</p>
+            <audio id="T" autostart = "false" src="./sounds/140_A_DaisyArp_01_726.wav"></audio> 
+        </div>
+
+        <div class="drum-pad" id="Y1" onclick="playSound('Y')">
+            <h3>Y</h3>
+            <p>DAISYPAD</p>
+            <audio id="Y" autostart = "false" src="./sounds/140_A_DaisyPad_01_726.wav"></audio> 
+        </div>
+
+        <div class="drum-pad" id="U1" onclick="playSound('U')">
+            <h3>U</h3>
+            <p>ATMOSPHERE</p>
+            <audio id="U" autostart = "false" src="./sounds/E_Atmosphere_01_726.wav"></audio>
+        </div>
+
+        <div class="drum-pad" id="I1" onclick="playSound('I')">
+            <h3>I</h3>
+            <p>DREAMYSUB</p>
+            <audio id="I" autostart = "false" src="./sounds/128_DreamySub_01_726.wav"></audio>
+        </div>
+
+        <div class="drum-pad" id="O1" onclick="playSound('O')">
+            <h3>O</h3>
+            <p>DREAMYSYNTH</p>
+            <audio id="O" autostart = "false" src="./sounds/128_DreamySynth_01_726.wav"></audio>
+        </div>
+
+        <div class="drum-pad" id="P1" onclick="playSound('P')">
+            <h3>P</h3>
+            <p>FUTURESYNTH</p>
+            <audio id="P" autostart = "false" src="./sounds/160_B_FutureSynth_01_726.wav"></audio>
+        </div>
+    </div>  
+
+    <div class="ani">
+        <span class="arrow">></span>
+        <div class="dash">
+            <p class="display1" id="display"></p>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
