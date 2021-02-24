@@ -106,3 +106,33 @@ body {
         opacity: 0.0;
     }
 }
+
+/* media queries */
+@media  (min-width : 1224px) {
+    #header{
+        font-size: 50px;
+        padding-bottom: 5px;
+    }
+
+    .drum-pad {
+        width: 75px;
+        height: 40px;
+        margin: 40px;
+        padding: 50px;
+    }
+
+    .drumBeats p {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .ani, p {
+        padding: 0;
+        margin: 0;
+    }
+
+    .arrow {
+        font: italic bold 150px Georgia, serif;
+        margin: 0;
+    }
+}
